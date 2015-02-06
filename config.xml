@@ -5,7 +5,7 @@
         Mobile App for PickNdrop.ca
     </description>
     <author email="contactabhay2@gmail.com" href="http://ionicframework.com/">
-        Ionic Framework Team
+        Pixolo Productions
     </author><gap:platform name="ios" />
     <gap:platform name="android" />
     <gap:platform name="winphone" />
