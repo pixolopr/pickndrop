@@ -10,19 +10,7 @@
     <icon src="img/logo.png" />
     <content src="index.html"/>
     <access origin="*" />
-    <gap:splash src="img/splash.png" />
 
-    <preference name="phonegap-version" />
-    <preference name="permissions" value="none" />
-    <preference name="fullscreen" value="false" />
-    <preference name="orientation" value="portrait" />
-    <preference name="android-installLocation" value="internalOnly" />
-    <preference name="ErrorUrl" value="" />
-    <preference name="BackgroundColor" value="0x000000" />
-    <preference name="KeepRunning" value="true" />
-    <preference name="splash-screen-duration" value="5000" />
-    <preference name="android-minSdkVersion" value="7" />
-    <preference name="LoadUrlTimeoutValue" value="200000" />
     
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
