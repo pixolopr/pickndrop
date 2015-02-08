@@ -32,7 +32,7 @@ angular.module('starter.controllers', [])
     },
     {
         "id": "6",
-        "name": "GIFT",
+        "name": "GIFTS",
         "image": "img/catgift.png"
     }
 ];
