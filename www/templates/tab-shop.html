@@ -1,8 +1,20 @@
-<ion-view view-title="Shop"> 
-  <ion-content>
-   <div class="category">
-       <div><img class="categoryimage" src="img/catalcohol.png"></div>
-       <div class="categorytext">ALCOHOL</div>
-   </div>
-  </ion-content>
+<ion-view view-title="Shop">
+    <ion-content>
+        <div ng-repeat="category in categorydata">
+            <div class="row" ng-if="$even" ng-class="{true: 'categorymargin', false: ''}[$index > 1]">
+                <div class="category col col-50" ng-class="{true: 'yellowcat', false: 'redcat'}[$index == 0 || $index == 3 || $index == 4]">
+                    <div>
+                        <img class="categoryimage"  src="{{category.image}}">
+                    </div>
+                    <div class="categorytext">{{category.name}}</div>
+                </div>
+                <div class="category col col-50" ng-class="{true: 'redcat', false: 'yellowcat'}[$index == 0 || $index == 3 || $index == 4]">
+                    <div>
+                        <img class="categoryimage" src="{{categorydata[$index + 1].image}}">
+                    </div>
+                    <div class="categorytext">{{categorydata[$index+1].name}}</div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
