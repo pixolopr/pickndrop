@@ -6,9 +6,7 @@
     </description>
     <author email="contactabhay2@gmail.com" href="http://ionicframework.com/">
         Pixolo Productions
-    </author><gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="winphone" />
+    </author>
 
     <icon src="img/logo.png" />
     <gap:splash src="img/splash.png" />
