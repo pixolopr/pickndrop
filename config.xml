@@ -9,7 +9,6 @@
     </author>
 
     <icon src="img/logo.png" />
-    <gap:splash src="img/splash.png" />
     <content src="index.html"/>
     <access origin="*" />
 
