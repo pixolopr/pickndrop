@@ -13,16 +13,13 @@
 .category {
     background-color: #ecdb65;
 }
-.categorymargin
-{
+.categorymargin {
     margin-top: -3%;
 }
-.yellowcat
-{
+.yellowcat {
     background-color: #ecdb65;
 }
-.redcat
-{
+.redcat {
     background-color: #fd6c5f;
 }
 .categoryimage {
@@ -39,4 +36,33 @@
     color: #2d292a;
     font-size: larger;
     font-weight: bolder;
+}
+.productlist {
+    background-color: #fd6c5f;
+}
+.productimg {
+    width: 100%;
+    /* border: aqua; */
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #fd6c5f;
+}
+.productmain {
+    padding: 15px;
+}
+.productthird {
+    padding: 10px;
+}
+.atcbtn {
+    width: 161%;
+    height: 30px;
+    min-height: 0px;
+    /* height: 69%; */
+    /* size: a4; */
+    vertical-align: initial;
+    text-align: start;
+    font-size: 13px;
+    line-height: 16px;
+    align-content: center;
+    padding-top: 2px;
 }
