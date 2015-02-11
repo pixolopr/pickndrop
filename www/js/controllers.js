@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
 
-.controller('shopCtrl', function($scope, Friends) {
+.controller('shopCtrl', function($scope, Friends, $location) {
     $scope.categorydata = [];
     $scope.categorydata = [
     {
@@ -36,6 +36,15 @@ angular.module('starter.controllers', [])
         "image": "img/catgift.png"
     }
 ];
+    
+    $scope.opencategory = function()
+    {
+        console.log("button clicked");
+        window.location.replace(window.location.origin + window.location.pathname + "#/tabs/products");
+    };
+})
+.controller('productsCtrl', function($scope) {
+
 })
 
 .controller('cartCtrl', function($scope, Friends) {
