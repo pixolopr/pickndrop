@@ -1,37 +1,19 @@
 <div style="background-color:#1fa6c4;">
     <ion-view view-title="Categories">
-    <ion-content>
-     <div class="list">
+        <ion-content>
+            <div class="list">
 
-    <a class="item item-thumbnail-left  " href="#tab/products">
-      <img src="img/catalcohol.png" class="shopimg" >
-     <div class="shoptext"> <h2>Alcohol</h2></div>
-          </a>
-     <a class="item item-thumbnail-left " href="#tab/products">
-      <img src="img/catgrocery.png" class="shopimg">
-       <div class="shoptext"> <h2>Grocery</h2></div>
-          </a>
-     <a class="item item-thumbnail-left " href="#tab/products">
-      <img src="img/catfastfood.png" class="shopimg" >
-      <div class="shoptext"> <h2>Fast Foods</h2></div>
-          </a>
-     <a class="item item-thumbnail-left " href="#tab/products">
-      <img src="img/catflowers.png"  class="shopimg" >
-      <div class="shoptext"> <h2>Flowers</h2></div>
-          </a>
-         <a class="item item-thumbnail-left " href="#tab/products">
-      <img src="img/catprescription.png" class="shopimg">
-      <div class="shoptext"> <h2>Medicines</h2></div>
-          </a>
-          <a class="item item-thumbnail-left " href="#tab/products">
-      <img src="img/catgift.png" class="shopimg" >
-     <div class="shoptext"> <h2>Gifts</h2></div>
-          </a>
-
-   
-</div>
-    </ion-content>
-</ion-view>
+                <a class="item item-thumbnail-left categorylist" href="#tab/products" ng-repeat="category in categorydata">
+                    
+                        <img src="{{category.image}}" class="shopimg">
+                    
+                    <div class="shoptext">
+                        <h2>{{category.name}}</h2>
+                    </div>
+                </a>
+            </div>
+        </ion-content>
+    </ion-view>
 
 </div>
 

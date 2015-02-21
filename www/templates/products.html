@@ -5,12 +5,20 @@
             <button class="button button-icon icon ion-ios7-search"></button>
         </ion-nav-buttons>
 
-        <div class="list" >
+        <div class="list">
 
             <a class="item item-thumbnail-left" ng-repeat="item in productdata" href="#">
-                <img src="img/bread.jpg">
-                <h2>{{item.item_desc}}</h2>
-                <p>${{item.item_price}}</p>
+                <img class="productimage" src="img/bread.jpg">
+                <div class="row">
+                    <div class="col col-75">
+                        <h2 class="producttitle">{{item.item_desc}}</h2>
+                        <p class="productsize">{{item.pro_size}}</p>
+                        <p class="">In {{item.item_title}}</p>
+                    </div>
+                    <div class="col col-25">
+                        <p class="productcost">${{item.item_price}}</p>
+                    </div>
+                </div>
             </a>
         </div>
     </ion-content>
