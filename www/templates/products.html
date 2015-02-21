@@ -5,22 +5,14 @@
             <button class="button button-icon icon ion-ios7-search"></button>
         </ion-nav-buttons>
 
-       <div class="list">
+        <div class="list" >
 
-    <a class="item item-thumbnail-left" href="#">
-      <img src="img/bread.jpg">
-      <h2>Bread</h2>
-      <p>12$</p>
-    </a>
-         <a class="item item-thumbnail-left" href="#">
-      <img src="img/greenpeas.jpg">
-      <h2>Green peas</h2>
-      <p>20$</p>
-    </a>
-
-   
-
-</div>
+            <a class="item item-thumbnail-left" ng-repeat="item in productdata" href="#">
+                <img src="img/bread.jpg">
+                <h2>{{item.item_desc}}</h2>
+                <p>${{item.item_price}}</p>
+            </a>
+        </div>
     </ion-content>
 </ion-view>
 
