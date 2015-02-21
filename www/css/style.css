@@ -1,8 +1,8 @@
 /* Empty. Add your own CSS if you like */
 
 .headerstyle {
-    background-color: #d9241a;
-    color: #fbf604;
+    background-color: #1fa6c5;
+    color: #1fa6c5;
     box-shadow: 0px 1px 2px #888888;
     text-align: left !important;
 }
@@ -41,11 +41,14 @@
     background-color: #fd6c5f;
 }
 .productimg {
-    width: 100%;
-    /* border: aqua; */
-    border-style: ridge;
-    border-width: 2px;
-    border-color: #fd6c5f;
+max-width: 83%;
+border-style: ridge;
+border-width: 2px;
+border-color: #fd6c5f;
+min-width: 98%;
+max-height: 76px;
+min-height: 40%;
+    margin-left: 22px;
 }
 .productmain {
     padding: 15px;
@@ -65,4 +68,56 @@
     line-height: 16px;
     align-content: center;
     padding-top: 2px;
+}
+.shoptext
+{
+margin-left: 75px;
+margin-top: 30px;
+
+}
+.shopimg
+{
+    margin-left: 38px;
+    border-radius: 55px;
+
+}
+.login
+{
+    margin-top: 56px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+
+.buttoncolor
+{
+   background: #e2fc05;
+width: 50%;
+left: 24%;
+margin-top: 7px;
+    
+}
+.loginlogo
+{
+width: 28%;
+margin-left: 37%;
+margin-top: 11%;
+
+}
+.headercolor
+{
+background-color: #1fa6c5;
+}
+.loginspace
+{
+    margin-top: 2%;
+    
+}
+.skip
+{
+width: 20%;
+right: 13%;
+margin-top: 26%;
+border-bottom-style: double;
+color: #1fa6c5;
 }
